@@ -4,18 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Главная</title>
-  <!-- Подключаем Bootstrap для красоты и адаптивности под телефоны -->
+  <!-- Подключаем Bootstrap -->
   <link href="https://jsdelivr.net" rel="stylesheet">
   <style>
-    /* Наш простой CSS для уникального кофейного цвета шапки */
-    .bg-coffee { background-color: #5c3a21; }
+    /* Нежно-розовая шапка сайта */
+    .bg-pink { background-color: #fbcce3; }
+    /* Стиль для твоей фотографии */
+    .img-portfolio { width: 100%; max-width: 500px; height: auto; border-radius: 15px; }
   </style>
 </head>
 <body class="bg-light">
 
-  <!-- Шапка и меню сайта -->
-  <header class="bg-coffee text-white text-center py-4 mb-4 shadow-sm">
-    <h1 class="h3 mb-2">Мой сайт</h1>
+  <!-- Розовая эстетичная шапка с БЕЛЫМ текстом -->
+  <header class="bg-pink text-white text-center py-4 mb-4 shadow-sm">
+    <h1 class="display-6 fw-bold mb-2 text-white">Мой первый сайт</h1>
     <nav>
       <a href="index.html" class="text-white fw-bold me-3 text-decoration-none">Главная</a>
       <a href="about.html" class="text-white-50 me-3 text-decoration-none">О проекте</a>
@@ -23,20 +25,31 @@
     </nav>
   </header>
 
-  <!-- Белая карточка по центру, как у подруг -->
+  <!-- Блок с приветствием -->
   <main class="container px-3">
-    <div class="card p-4 my-5 shadow-sm text-center mx-auto" style="max-width: 500px;">
-      <h2 class="h4 mb-3">Добро пожаловать! ✨</h2>
-      <p class="fs-5 text-secondary">
+    <div class="card border-0 p-4 my-4 shadow-sm mx-auto" style="max-width: 500px; border-radius: 15px;">
+      <h2 class="h4 fw-bold text-dark mb-3">Добро пожаловать 🤍</h2>
+      <p class="fs-5 text-secondary mb-0">
         Привет, меня зовут Сона! Я изучаю веб-разработку, это мой первый сайт.
       </p>
-      <a href="about.html" class="btn text-white mt-3" style="background-color: #5c3a21;">Узнать больше</a>
+    </div>
+
+    <!-- Блок с твоей фотографией -->
+    <div class="text-center my-4">
+      <img src="avatar.heic" alt="Моё фото" class="img-portfolio shadow-sm">
     </div>
   </main>
 
-  <footer class="text-center text-muted py-4 mt-5">
-    Мой сайт, 2026
-  </footer>
-
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
